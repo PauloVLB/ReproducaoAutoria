@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+#worldwidePanel{
+  width: auto;
+  height: 37px;
+  border-bottom-width: 1px;
+  border-bottom-color: #e0e0e0;
+  border-bottom-style: solid;
+}
+
+#btnColor{
+  background-image: url("icones/worldwide.PNG");
+
+  width: 100px;
+  height: 28px;
+
+  float: right;
+  margin-top: 2px;
+  margin-right: 79px;
+}
+
+#borderWorldWide{
+  background-color: #1eb5da;
+
+  height: 4px;
+  width: 0px;
+  margin-right: -50px;
+
+  float: right;
+  margin-top: 32px;
+
+  position: relative;
+}
+
+#btnColor:hover{
+  cursor: pointer;
+}
+#btnColor:hover + #borderWorldWide{
+  animation: bordaIn 0.7s;
+  animation-fill-mode: forwards;
+}
+@keyframes bordaIn{
+  %0{
+    width: 0px;
+    margin-right: -50px;
+  }
+  %25{
+    width: 25px;
+    margin-right: -62.5px;
+  }
+  %50{
+    width: 50px;
+    margin-right: -75px;
+  }
+  %75{
+    width: 75px;
+    margin-right: -87.5px;
+  }
+  100%{
+    width: 100px;
+    margin-right: -100px;
+  }
+}
+#btnColor:after {
+  animation: bordaOut 0.9s;
+}
+@keyframes bordaOut{
+  %0{
+    width: 100px;
+    margin-right: -100px;
+  }
+  %25{
+    width: 75px;
+    margin-right: -87.5px;
+  }
+  %50{
+    width: 50px;
+    margin-right: -75px;
+  }
+  %75{
+    width: 25px;
+    margin-right: -62.5px;
+  }
+  100%{
+    width: 0px;
+    margin-right: -50px;
+  }
+}
