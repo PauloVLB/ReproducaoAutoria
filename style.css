@@ -78,7 +78,7 @@
   width: 20px;
   height: 17px;
   display: inline-block;
-  margin-bottom: 18px;
+  margin-bottom: 32px;
 }
 #tracosMenu:hover{
   background-image: url("icones/menuCor.png");
@@ -88,27 +88,30 @@
 #logoMenu{
   margin-top: 3px;
   margin-left: 40px;
+  margin-bottom: 13px;
   display: inline-block;
 }
 
 #opcoes{
-  width: 740px;
-  height: 55px;
+  overflow: auto;
+  width: 750px;
+  height: 50px;
   display: inline-block;
   margin-right: 80px;
-}
-
-nav{
-  margin: 0;
-  padding: 0;
+  margin-bottom: 20px;
 }
 .ulOpcoes{
-  margin-bottom: 40px;
+  margin-top: 22px;
   padding: 0;
-  height: 40px;
+  height: 0px;
   width: 750px;
   list-style-type: disc;
   display: inline-block;
+}
+
+.btnOpcoes:hover{
+  cursor: pointer;
+  color: #ff0000;
 }
 
 .btnOpcoes{
@@ -116,7 +119,7 @@ nav{
   margin-left: 25px;
   margin-right: 25px;
 
-  font-family: Helvetica;
+  font-family: Helvetica,Arial,sans-serif;
   font-weight: bolder;
   font-size: 17px;
 
@@ -134,7 +137,7 @@ nav{
   display: inline-block;
   width: 60px;
   height: 40px;
-  margin-bottom: 11px;
+  margin-bottom: 20px;
   border-left-color: #e6e6e6;
   border-left-width: 2px;
   border-left-style: solid;
