@@ -10,7 +10,7 @@
 }
 
 #btnColor{
-  background-image: url("icones/worldwide.PNG");
+  background-image: url("icones/ww.PNG");
 
   width: 100px;
   height: 28px;
@@ -35,6 +35,7 @@
 
 #btnColor:hover{
   cursor: pointer;
+  background-image: url("icones/wwCor.PNG");
 }
 #btnColor:hover + #borderWorldWide{
   animation: bordaIn 0.5s;
