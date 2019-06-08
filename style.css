@@ -21,7 +21,7 @@
 }
 
 #borderWorldWide{
-  background-color: #1eb5da;
+  background-color: #ff0000;
 
   height: 4px;
   width: 0px;
@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 #btnColor:hover + #borderWorldWide{
-  animation: bordaIn 0.7s;
+  animation: bordaIn 0.5s;
   animation-fill-mode: forwards;
 }
 @keyframes bordaIn{
@@ -62,28 +62,152 @@
     margin-right: -100px;
   }
 }
-#btnColor:after {
-  animation: bordaOut 0.9s;
+
+#menu{
+  width: auto;
+  height: 62px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e8e8e8;
+  text-align: center;
+  display: block;
 }
-@keyframes bordaOut{
-  %0{
-    width: 100px;
-    margin-right: -100px;
-  }
-  %25{
-    width: 75px;
-    margin-right: -87.5px;
-  }
-  %50{
-    width: 50px;
-    margin-right: -75px;
-  }
-  %75{
-    width: 25px;
-    margin-right: -62.5px;
-  }
-  100%{
-    width: 0px;
-    margin-right: -50px;
-  }
+
+#tracosMenu{
+  background-image: url("icones/menu.png");
+  width: 20px;
+  height: 17px;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+#tracosMenu:hover{
+  background-image: url("icones/menuCor.png");
+  cursor: pointer;
+}
+
+#logoMenu{
+  margin-top: 3px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+#opcoes{
+  width: 740px;
+  height: 55px;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+}
+.ulOpcoes{
+  margin-bottom: 40px;
+  padding: 0;
+  height: 40px;
+  width: 750px;
+  list-style-type: disc;
+  display: inline-block;
+}
+
+.btnOpcoes{
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  font-family: Helvetica;
+  font-weight: bolder;
+  font-size: 17px;
+
+  text-align: center;
+}
+#borderBtns{
+  background-color: #ff0000;
+
+  height: 4px;
+  width: 70px;
+}
+
+
+#busca{
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  margin-bottom: 11px;
+  border-left-color: #e6e6e6;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right-color: #e6e6e6;
+  border-right-width: 2px;
+  border-right-style: solid;
+
+}
+
+#lupa{
+    background-image: url("icones/lupa.png");
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+#lupa:hover{
+  background-image: url("icones/lupaCor.png");
+  cursor: pointer;
+}
+
+.midia{
+  text-align: center;
+  margin-top: 400px;
+}
+
+#logoFim{
+  margin-bottom: 20px;
+}
+.ulRedesSociais{
+    width: auto;
+    height: 68px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.liRedeSocial{
+  display: inline-block;
+  margin: 2px;
+  padding: 11px;
+}
+
+#btnFacebook{
+  background-image: url("icones/fbFechado.png");
+  width: 48px;
+  height: 48px;
+}
+
+#btnFacebook:hover{
+  cursor: pointer;
+  background-image: url("icones/fbAberto.png");
+}
+
+#btnTwitter{
+  background-image: url("icones/ttFechado.png");
+  width: 48px;
+  height: 48px;
+}
+
+#btnTwitter:hover{
+  cursor: pointer;
+  background-image: url("icones/ttAberto.png");
+}
+
+#btnWhatsapp{
+  background-image: url("icones/wppFechado.png");
+  width: 48px;
+  height: 48px;
+}
+
+#btnWhatsapp:hover{
+  cursor: pointer;
+  background-image: url("icones/wppAberto.png");
 }
