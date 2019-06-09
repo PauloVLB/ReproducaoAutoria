@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Lanchonete PhD</title>
+    <title>PhD</title>
     <meta charset="UTF-8">
     <meta name="author" content="Paulo Vitor, Henrique Eduardo, Douglas Gabriel">
     <meta name="description" content="Site da Lanchonete PhD, a melhor lanchonete de lanches
@@ -9,6 +9,7 @@
     <meta name="keywords" content="Comida, PhD, Hambúguer,
           Autoria Web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="192x192" href="icones/logos/logoBurger.png" />
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -16,8 +17,10 @@
   <body>
     <header>
       <div id="worldwidePanel">
-        <div id="btnColor"></div>
-        <div id="borderWorldWide"></div>
+        <div id="containerWW">
+          <div id="btnWW"></div>
+          <div class="borderBtns"></div>
+        </div>
       </div>
 
       <div id="menu">
@@ -29,25 +32,25 @@
             <div id="opcoes">
               <nav>
                 <ul class="ulOpcoes">
-                  <li class="btnOpcoes">
-                    Cardápio
-                    <!-- <div id="borderBtns"></div> -->
+                  <li class="liOp">
+                      <div class="btnOpcoes">Cardápio</div>
+                      <div class="borderBtns"></div>
                   </li>
-                  <li class="btnOpcoes">
-                    Feedback
-                    <!--<div id="borderBtns"></div>-->
+                  <li class="liOp">
+                    <div class="btnOpcoes">Feedback</div>
+                    <div class="borderBtns"></div>
                   </li>
-                  <li class="btnOpcoes">
-                    Burguers
-                    <!--<div id="borderBtns"></div>-->
+                  <li class="liOp">
+                    <div class="btnOpcoes">Burgers</div>
+                    <div class="borderBtns"></div>
                   </li>
-                  <li class="btnOpcoes">
-                    Encomendar
-                    <!--<div id="borderBtns"></div>-->
+                  <li class="liOp">
+                    <div class="btnOpcoes">Encomendar</div>
+                    <div class="borderBtns"></div>
                   </li>
-                  <li class="btnOpcoes">
-                    Seja Cliente VIP
-                    <!--<div id="borderBtns"></div>-->
+                  <li class="liOp">
+                    <div class="btnOpcoes">Seja Client VIP</div>
+                    <div class="borderBtns"></div>
                   </li>
                 </ul>
               </nav>
@@ -66,8 +69,8 @@
       <div id="bottomImgs">
         <!--<img src="imagemaqhein" alt="pequenaEsq" id="imgPequenaEsq"/>-->
         <!--<img src="imagemaqhein" alt="pequenaDir" id="imgPequenaDir"/>-->
-        <div id="imgPequenaEsq">imgPequenaEsq</div>
-        <div id="imgPequenaDir">imgPequenaDir</div>
+        <div id="imgPequenaEsq">imgPequenaEsq
+        </div><div id="imgPequenaDir">imgPequenaDir</div>
       </div>
     </main>
 
@@ -88,6 +91,26 @@
         </ul>
       </nav>
     </div>
+
+    <footer>
+      <nav>
+        <ul>
+          <li class="liFooter">Canal PhD</li>
+          <li class="liFooter">Cardápio</li>
+          <li class="liFooter">Fale Conosco</li>
+          <li class="liFooter">Associados</li>
+          <li class="liFooter">Força de Vendas</li>
+          <li class="liFooter">Trabalhe Conosco</li>
+          <li class="liFooter">Imprensa</li>
+          <li class="liFooter">Investidor</li>
+          <li class="liFooter">Institucional</li>
+          <li class="liFooter">Política de Privacidade</li>
+          <li class="liFooter">PhD Corporation Brasil</li>
+          <li class="liFooter">Mapa do site</li>
+          <li>&COPY 2019 PhD. All rights reserved</li>
+        </ul>
+      </nav>
+    </footer>
 
   </body>
 </html>

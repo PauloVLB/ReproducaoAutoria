@@ -9,9 +9,7 @@
   border-bottom-style: solid;
 }
 
-#btnColor{
-  background-image: url("icones/ww.PNG");
-
+#containerWW{
   width: 100px;
   height: 28px;
 
@@ -20,56 +18,64 @@
   margin-right: 79px;
 }
 
-#borderWorldWide{
+#btnWW{
+  background-image: url("icones/ww.PNG");
+
+  width: 100px;
+  height: 28px;
+}
+
+li{
+  display: inline-block;
+
+}
+.borderBtns{
   background-color: #ff0000;
 
   height: 4px;
-  width: 0px;
-  margin-right: -50px;
+  width: 0;
 
-  float: right;
-  margin-top: 32px;
-
+  margin-top: 2px;
   position: relative;
 }
 
-#btnColor:hover{
+#btnWW:hover{
   cursor: pointer;
   background-image: url("icones/wwCor.PNG");
 }
-#btnColor:hover + #borderWorldWide{
-  animation: bordaIn 0.5s;
+#btnWW:hover + .borderBtns{
+  animation: bordaIn 0.8s;
+  animation-fill-mode: forwards;
+}
+#btnWW:not(:hover) + .borderBtns{
+  animation: bordaOut 0.8s;
   animation-fill-mode: forwards;
 }
 @keyframes bordaIn{
-  %0{
-    width: 0px;
-    margin-right: -50px;
+  from{
+    width: 0%;
+    margin-left: 50%;
+    filter: brightness(1.5);
   }
-  %25{
-    width: 25px;
-    margin-right: -62.5px;
-  }
-  %50{
-    width: 50px;
-    margin-right: -75px;
-  }
-  %75{
-    width: 75px;
-    margin-right: -87.5px;
-  }
-  100%{
-    width: 100px;
-    margin-right: -100px;
+  to{
+    width: 100%;
+    margin-left: 0%;
+    filter: brightness(4.9);
   }
 }
-
+@keyframes bordaOut {
+  from{
+    width: 100%;
+    margin-left: 0;
+  }
+  to{
+    width: 0;
+    margin-left: 50%;
+  }
+}
 #menu{
   width: auto;
   height: 62px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #e8e8e8;
   text-align: center;
   display: block;
 }
@@ -93,6 +99,10 @@
   display: inline-block;
 }
 
+#logoMenu:hover{
+  cursor: pointer;
+}
+
 #opcoes{
   overflow: auto;
   width: 750px;
@@ -110,29 +120,47 @@
   display: inline-block;
 }
 
-.btnOpcoes:hover{
-  cursor: pointer;
-  color: #ff0000;
+.liOp{
+  margin-left: 40px;
 }
 
 .btnOpcoes{
   display: inline-block;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
 
   font-family: Helvetica,Arial,sans-serif;
-  font-weight: bolder;
-  font-size: 17px;
+  font-weight: bold;
+  font-size: 15px;
 
   text-align: center;
 }
+
+.btnOpcoes:hover{
+  cursor: pointer;
+  color: #ff0000;
+}
+.btnOpcoes:hover + .borderBtns{
+  animation: bordaIn 0.8s;
+  animation-fill-mode: forwards;
+}
+.btnOpcoes:not(:hover) + .borderBtns{
+  animation: bordaOut 0.8s;
+  animation-fill-mode: forwards;
+}
+
 #borderBtns{
   background-color: #ff0000;
 
   height: 4px;
   width: 70px;
+  display: inline-block;
 }
 
+.separadorOp{
+  width: 35px;
+  display: inline-block;
+}
 
 #busca{
   display: inline-block;
@@ -145,7 +173,6 @@
   border-right-color: #e6e6e6;
   border-right-width: 2px;
   border-right-style: solid;
-
 }
 
 #lupa{
@@ -161,26 +188,34 @@
   cursor: pointer;
 }
 
+#bottomImgs{
+  width: 100%;
+  display: inline-block;
+}
+
 #imgGrande{
   text-align: center;
   height: 645px;
   width: 100%;
 
-  margin-top: 25px;
+  background-color: rgba(255, 0, 0, 1);
+  margin-top: 10px;
 }
+
+#bottomImgs{
+  width: 100%;
+  height: 342px;
+  margin-top: 10px;
+}
+
 #imgPequenaEsq, #imgPequenaDir{
   text-align: center;
+  background-color: rgba(255, 0, 0, 0.5);
 
-  margin-top: 15px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  padding: 0;
+  width: 50%;
+  height: 100%;
 
-  width: 664px;
-  height: 342px;
-
-  display: inline-block;
+  display: inline-block
 }
 
 .midia{
@@ -190,7 +225,6 @@
 
 #logoFim{
   margin-bottom: 20px;
-  margin-left: -5px;
 }
 .ulRedesSociais{
     width: auto;
@@ -237,4 +271,25 @@
 #btnWhatsapp:hover{
   cursor: pointer;
   background-image: url("icones/wppAberto.png");
+}
+
+footer nav ul{
+  height: 74px;
+  margin-bottom: 25px;
+  margin-top: 130px;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.liFooter{
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+}
+
+.liFooter:hover{
+  cursor: pointer;
+  color: #ff0000;
 }
