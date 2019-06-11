@@ -21,7 +21,7 @@
 }
 
 #btnWW{
-  background-image: url("icones/ww.PNG");
+  background-image: url("icones/ww.png");
 
   width: 100px;
   height: 28px;
@@ -43,26 +43,26 @@ li{
 
 #btnWW:hover{
   cursor: pointer;
-  background-image: url("icones/wwCor.PNG");
+  background-image: url("icones/wwCor.png");
 }
 #btnWW:hover + .borderBtns{
-  animation: bordaIn 0.8s;
+  animation-name: bordaIn;
+  animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
 #btnWW:not(:hover) + .borderBtns{
-  animation: bordaOut 0.8s;
+  animation-name: bordaOut;
+  animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
 @keyframes bordaIn{
   from{
     width: 0%;
     margin-left: 50%;
-    filter: brightness(1.5);
   }
   to{
     width: 100%;
     margin-left: 0%;
-    filter: brightness(4.9);
   }
 }
 @keyframes bordaOut {
@@ -143,11 +143,13 @@ li{
   color: #ff0000;
 }
 .btnOpcoes:hover + .borderBtns{
-  animation: bordaIn 0.8s;
+  animation-name: bordaIn;
+  animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
 .btnOpcoes:not(:hover) + .borderBtns{
-  animation: bordaOut 0.8s;
+  animation-name: bordaOut;
+  animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
 
