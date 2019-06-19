@@ -202,7 +202,9 @@ li{
   height: 645px;
   width: 100%;
 
-  background-color: rgba(255, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-image: url("imgs/maior.png");
+  background-size: 100%;
   margin-top: 10px;
 }
 
@@ -214,12 +216,22 @@ li{
 
 #imgPequenaEsq, #imgPequenaDir{
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.5);
 
   width: 50%;
   height: 100%;
 
-  display: inline-block
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+#imgPequenaEsq{
+  background-image: url("imgs/Henrique.png");
+  background-size: 100%;
+}
+
+#imgPequenaDir{
+  background-image: url("imgs/Combo.png");
+  background-size: 100%;
 }
 
 .midia{
