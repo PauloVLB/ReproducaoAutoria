@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="icone-com-letras.svg">
+  <defs
+     id="defs2">
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 59.87874,183.5784 c -1.179914,-41.07471 26.884665,-63.24608 66.82224,-58.11851"
+       id="path4668"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="238.79698"
+     inkscape:cy="546.95125"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g873"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="opacity:1"
+       id="g4788"
+       transform="translate(-26.011078,-35.888005)">
+      <g
+         id="g849">
+        <g
+           id="g873"
+           transform="translate(-1.0690781,16.303441)">
+          <g
+             id="g893"
+             inkscape:export-xdpi="96"
+             inkscape:export-ydpi="96">
+            <path
+               style="fill:#ff0000;fill-opacity:1;stroke-width:0.52291918"
+               d="m 114.82846,128.9083 a 50.285542,50.018537 0 0 0 -50.285053,50.01895 50.285542,50.018537 0 0 0 50.285053,50.01805 50.285542,50.018537 0 0 0 19.04948,-3.75413 c 8.96359,4.78717 33.43651,-5.24331 27.29362,-26.9698 a 50.285542,50.018537 0 0 0 3.94285,-19.29412 50.285542,50.018537 0 0 0 -50.28595,-50.01895 z m -0.0966,2.33129 a 48.06135,47.881819 0 0 1 48.06119,47.88093 48.06135,47.881819 0 0 1 -48.06119,47.88244 48.06135,47.881819 0 0 1 -48.060799,-47.88244 48.06135,47.881819 0 0 1 48.060799,-47.88093 z m 0.0391,2.242 a 45.153452,45.262567 0 0 0 -45.15321,45.26269 45.153452,45.262567 0 0 0 45.15321,45.26203 45.153452,45.262567 0 0 0 45.15366,-45.26203 45.153452,45.262567 0 0 0 -45.15366,-45.26269 z"
+               id="path4536"
+               inkscape:connector-curvature="0" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:6.90673542px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.57556129"
+               id="text4677"><textPath
+                 xlink:href="#path4668"
+                 id="textPath4753"><tspan
+   style="fill:#000000;fill-opacity:1;stroke-width:0.57556129"
+   id="tspan4675">Compre   Coma   Divirta-se</tspan></textPath></text>
+            <circle
+               style="fill:#000000;fill-opacity:1;stroke-width:0.2673167"
+               id="path4756"
+               cx="63.173401"
+               cy="152.79546"
+               r="1" />
+            <circle
+               style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:0.2673167"
+               id="path4756-2"
+               cx="81.945457"
+               cy="131.62332"
+               r="1" />
+          </g>
+        </g>
+      </g>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot835"
+         style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+           id="flowRegion837"><rect
+             id="rect839"
+             width="57.142857"
+             height="57.142857"
+             x="377.14285"
+             y="536.80542" /></flowRegion><flowPara
+           id="flowPara841"></flowPara></flowRoot>    </g>
+  </g>
+</svg>
